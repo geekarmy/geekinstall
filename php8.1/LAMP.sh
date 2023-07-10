@@ -25,4 +25,4 @@ echo "install Cerbot"
 sudo apt install certbot python3-certbot-nginx -y
 # Install MySQL Server
 echo "install mysql"
-sudo apt install mysql-server
+sudo apt install mysql-server -y
