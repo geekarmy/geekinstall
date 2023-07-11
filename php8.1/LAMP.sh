@@ -29,7 +29,6 @@ sudo apt install mysql-server
 #Install Node JS
 echo "Install Node JS 16"
 cd ~
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-source ~/.bashrc
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash && source ~/.bashrc
 nvm install v16.14.0
 node -v
